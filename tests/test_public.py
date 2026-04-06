@@ -56,8 +56,6 @@ class TestTotalListeningTime:
     #       Calculate the expected total based on the fixture data in conftest.py.
     def test_known_period_value(self, platform: StreamingPlatform) -> None:
         pass
-
-
 # ===========================================================================
 # Q2 - Average unique tracks per PremiumUser in the last N days
 # ===========================================================================
@@ -87,8 +85,6 @@ class TestAvgUniqueTracksPremium:
     #       per premium user and calculate the average.
     def test_correct_value(self, platform: StreamingPlatform) -> None:
         pass
-
-
 # ===========================================================================
 # Q3 - Track with the most distinct listeners
 # ===========================================================================
@@ -111,8 +107,6 @@ class TestTrackMostDistinctListeners:
     #       Count listeners per track from the fixture data.
     def test_correct_track(self, platform: StreamingPlatform) -> None:
         pass
-
-
 # ===========================================================================
 # Q4 - Average session duration per user subtype, ranked
 # ===========================================================================
@@ -143,8 +137,6 @@ class TestAvgSessionDurationByType:
     # TODO: Add tests to verify all user types are present and have correct averages.
     def test_all_user_types_present(self, platform: StreamingPlatform) -> None:
         pass
-
-
 # ===========================================================================
 # Q5 - Total listening time for underage sub-users
 # ===========================================================================
